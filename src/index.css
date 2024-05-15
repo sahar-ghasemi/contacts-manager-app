@@ -1,0 +1,39 @@
+/* Styling for the body element */
+body {
+  background-color: #282A36;
+
+  margin: 0;
+  font-family: 'Lato', 'tahoma''Ubuntu'  !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Style for input fields */
+.form-control {
+  background-color: #44475A;
+  color: #F8F8F2;
+  border-color: #BD93F9;
+}
+
+/* Placeholder text color for WebKit-based browsers */
+.form-control::-webkit-input-placeholder {
+  color: #F8F8F2;
+}
+
+/* Placeholder text color for other browsers */
+.form-control::placeholder {
+  color: #F8F8F2;
+}
+
+/* Text color for focused input fields */
+.form-control:focus {
+  background-color: #44475A; /* Set to your desired background color */
+  color: #F8F8F2; /* Ensure text color remains light */
+}
+.form-select{
+  background-color: #44475A;
+  color: #F8F8F2;
+  border-color: #BD93F9;
+}
