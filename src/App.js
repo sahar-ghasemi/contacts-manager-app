@@ -43,6 +43,7 @@ function App() {
         const { data: groupsData } = await getAllGroups();
         setContacts(contactsData);
         setFilteredContacts(contactsData);
+        console.log(contactsData);
         setGroups(groupsData);
         setLoading(false);
       } catch (err) {
